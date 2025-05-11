@@ -90,3 +90,5 @@ elif int(user_num) %5==0:
     print("Buzz")
 elif int(user_num) %3==0:
     print("Fizz")
+else:
+    print("not valid")
