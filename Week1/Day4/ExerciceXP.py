@@ -32,12 +32,15 @@ rand_number(int(user))
 #Exercise 5: Let’s Create Some Personalized Shirts! 
 def make_shirt(size="large", text="I love python"):
     print(f'Your size is: {size} and {text}')
+
+
 make_shirt("Small", "I love shopping")
 
 make_shirt()
 make_shirt("Medium",)
 make_shirt("Small", "I love cooking")
 make_shirt(size="small", text="Hello!")
+make_shirt()
 
 #Exercise 6: Magicians…
 magician_names=['Harry Houdini', 'David Blaine', 'Criss Angel']

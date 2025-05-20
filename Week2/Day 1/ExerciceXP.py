@@ -85,7 +85,7 @@ class Zoo:
     
     def sort_animals(self):
         self.animals.sort()
-        our_dict={}
+
         grouped_animals = {}
 
         for animal in self.animals:
